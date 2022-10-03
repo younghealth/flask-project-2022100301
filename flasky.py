@@ -10,3 +10,4 @@ migrate = Migrate(app,db)
 def make_shell_context():
     return dict(db=db,User=User)
 
+#添加注释
